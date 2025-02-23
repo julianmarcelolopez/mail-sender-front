@@ -1,0 +1,71 @@
+/* src/components/EmailForm/EmailForm.css */
+
+.container {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 24rem;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #2d3748;
+    text-align: center;
+}
+
+.input,
+.textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.75rem;
+    transition: border-color 0.3s;
+}
+
+.input:focus,
+.textarea:focus {
+    outline: none;
+    border-color: #4299e1;
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.3);
+}
+
+.button {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 0.75rem;
+    color: white;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.buttonHtml {
+    background-color: #3182ce;
+}
+
+.buttonHtml:hover {
+    background-color: #2b6cb0;
+}
+
+.responseMessage {
+    margin-top: 1rem;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 0.75rem;
+    font-size: 1rem;
+}
+
+.success {
+    background-color: #c6f6d5;
+    color: #38a169;
+}
+
+.error {
+    background-color: #fbd5d5;
+    color: #e53e3e;
+}
